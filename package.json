@@ -3,16 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "mobx": "^5.5.1",
+    "mobx-react": "^5.3.4",
     "react": "^16.5.2",
     "react-app-rewire-mobx": "^1.0.9",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.5"
   },
   "scripts": {
-    "start": "react-app-rewired  start",
-    "build": "react-app-rewired  build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-app-rewired  eject"
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,6 +27,7 @@
   ],
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.1.2",
-    "customize-cra": "^0.1.1"
+    "customize-cra": "^0.1.1",
+    "react-app-rewired": "^1.6.2"
   }
 }
