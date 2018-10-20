@@ -24,6 +24,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.1.2",
     "customize-cra": "^0.1.1"
   }
 }
