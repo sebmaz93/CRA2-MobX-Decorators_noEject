@@ -6,7 +6,6 @@
     "mobx": "^5.5.1",
     "mobx-react": "^5.3.4",
     "react": "^16.5.2",
-    "react-app-rewire-mobx": "^1.0.9",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.5"
   },
